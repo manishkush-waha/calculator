@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+.calculator {
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    margin-top: -10px;
+    width: 500px;
+    border-radius: 5px;
+}
+.Display {
+    display: flex;
+    justify-content: right;
+    align-items: last baseline;
+    width: 630px;
+    height: 150px;
+    margin: 0 0 20px 0;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.operation {
+    display: flex;
+    justify-content: right;
+    color: black;
+    height: 50px;
+    width: 630px;
+    margin: -10px 0 10px 0;
+    border-radius: 5px;
+}
+.operation p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: -2px 0 0 0;
+    font-weight: 900;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.result {
+    display: flex;
+    justify-content: right;
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 630px;
+    margin: -10px 0 10px 0;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+p {
+    margin: 5px 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
+button {
+    width: 145px;
+    height: 80px;
+    cursor: pointer;
+    border: none;
+    font-size: 40px;
+    font-weight: 900;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 5px 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.row-0 {
+    display: flex;
+    justify-content: space-between;
+}
+.main {
+    width: 48%;
+    border-radius: 20px;
+}
+.row-1, .row-2, .row-3, .row-4 {
+    display: flex;
+    justify-content: space-between;
+}
